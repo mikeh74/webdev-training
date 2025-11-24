@@ -33,21 +33,17 @@ On top of these technologies you are likely to come across other programming lan
     Create variables to store your name, age, and favorite color.
 2. **[Temperature Converter](./javascript-exercises/temperature-converter/README.md)**:
     Build a function that converts Celsius to Fahrenheit and vice versa.
-3. **[Basic Calculator](./javascript-exercises/basic-calculator/README.md)**:
-    Write functions to add, subtract, multiply, and divide two numbers.
-4. **[FizzBuzz Challenge](./javascript-exercises/fizzbuzz/README.md)**:
-    Create a program that prints numbers 1-100, but prints "Fizz" for multiples of 3, "Buzz" for multiples of 5, and "FizzBuzz" for multiples of both.
-5. **[To-Do List](./javascript-exercises/todo-list/README.md)**:
+3. **[To-Do List](./javascript-exercises/todo-list/README.md)**:
     Build a simple to-do list where users can add, remove, and mark tasks as complete using DOM manipulation.
-6. **[Random Quote Generator](./javascript-exercises/quote-generator/README.md)**:
+4. **[Random Quote Generator](./javascript-exercises/quote-generator/README.md)**:
     Display a random quote from an array when a button is clicked.
-7. **[Counter App](./javascript-exercises/counter-app/README.md)**:
+5. **[Counter App](./javascript-exercises/counter-app/README.md)**:
     Create increment, decrement, and reset buttons that update a displayed number.
-8. **[Password Validator](./javascript-exercises/password-validator/README.md)**:
+6. **[Password Validator](./javascript-exercises/password-validator/README.md)**:
     Write a function that checks if a password meets certain criteria (length, special characters, etc.).
-9. **[Image Slider/Carousel](./javascript-exercises/image-slider/README.md)**:
+7. **[Image Slider/Carousel](./javascript-exercises/image-slider/README.md)**:
     Create a slideshow that cycles through images with next/previous buttons.
-10. **[News Feed](./javascript-exercises/news-feed/README.md)**:
+8. **[News Feed](./javascript-exercises/news-feed/README.md)**:
     Fetch and display current news articles using a local json file.
 
 ## Main Project
