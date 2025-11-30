@@ -31,6 +31,10 @@ source venv/bin/activate
 
 When activated, you'll see `(venv)` in your terminal prompt.
 
+*Resources:*
+
+[Django Docs](https://docs.djangoproject.com/en/5.2/)
+
 ### 2. Install Dependencies
 
 With the virtual environment activated, install the required packages from `requirements.txt`:
@@ -98,4 +102,3 @@ We need to break this project down into 3 main phases, these are as follows:
 * create design flats
 * build html and css from the flats
 * build out a backend solution
-
