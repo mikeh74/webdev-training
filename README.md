@@ -27,7 +27,7 @@ On top of these technologies you are likely to come across other programming lan
 5. **[Build a Recipe Page](./html-exercises/recipe-page/README.md)**:
     Structure a recipe with headings, ingredients list, ordered steps, and an image.
 
-### Javascript Execercises
+### Javascript Exercises
 
 1. **[Variable Practice](./javascript-exercises/variable-practice/README.md)**:
     Create variables to store your name, age, and favorite color.
