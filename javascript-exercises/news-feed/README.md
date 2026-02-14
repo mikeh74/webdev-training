@@ -10,3 +10,7 @@ Your task is to:
 3. Display the news articles on the page in a user-friendly format
 
 This exercise will help you understand how to make asynchronous requests and work with external data sources in JavaScript.
+
+## Resources
+
+<https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch>

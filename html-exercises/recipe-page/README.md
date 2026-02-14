@@ -10,6 +10,7 @@ Structure a recipe with headings, ingredients list, ordered steps, and an image.
 - Use both unordered and ordered lists appropriately
 - Include an appealing recipe image
 - Organize content with clear headings and sections
+- Make the content visually engaging
 
 ## Key HTML Elements to Use
 
@@ -45,6 +46,4 @@ Structure a recipe with headings, ingredients list, ordered steps, and an image.
 
 - Chocolate chip cookies
 - Pasta carbonara
-- Vegetable stir-fry
 - Homemade pizza
-- Fruit smoothie
