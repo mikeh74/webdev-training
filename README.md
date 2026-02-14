@@ -4,15 +4,17 @@
 
 There are a number of roles in web development and it is useful to be aware of the kinds of roles that are available. Depending on the nature and size of each organisation you may find that some of these roles overlap or a job role may incorporate several of these roles:
 
-**[Overview Job Roles](./docs/job-roles.md)**
+**[Overview of Job Roles](./docs/job-roles.md)**
 
 The backbone of the web is built on HTML, CSS and Javascript. Knowledge of these three technologies are essential for many roles in web development:
 
 **[Introduction to Web Development](./docs/intro-to-web.md)**
 
-On top of these technologies you are likely to come across other programming languages which are used in the back end, such as Python, PHP, Java or Ruby.
+On top of these technologies you are likely to come across other programming languages which are used in the back end, such as Python, PHP, Java or Ruby. We will be using Python with Django as the back end for our main project.
 
 ## Coding Exercises
+
+Below are a series of code excercises HTML, CSS and Javascript. I would recommend completing 3 or 4 from each before starting on the main project.
 
 ### HTML/ CSS Exercises
 
@@ -48,4 +50,4 @@ On top of these technologies you are likely to come across other programming lan
 
 ## Main Project
 
-Once you have worked through the above exercises then you can move onto the main project, the details for which are in [news folder](./django/README.md)
+Once you have worked through the above exercises then you can move onto the main project, the details for which are in [main folder](./main/README.md)
