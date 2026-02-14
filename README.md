@@ -26,7 +26,9 @@ Below are a series of code excercises HTML, CSS and Javascript. I would recommen
     Construct a form with input fields for name, email, message, and a submit button.
 4. **[Embed Media](./html-exercises/media-embeds/README.md)**:
     Create a page that embeds a video, audio file, and iframe.
-5. **[Build a Recipe Page](./html-exercises/recipe-page/README.md)**:
+5. **[Card Layout - Grid vs Flexbox](./html-exercises/card-layout/README.md)**:
+    Create a responsive card gallery using either CSS Grid or Flexbox to see how both approaches solve the same layout problem.
+6. **[Build a Recipe Page](./html-exercises/recipe-page/README.md)**:
     Structure a recipe with headings, ingredients list, ordered steps, and an image.
 
 ### Javascript Exercises
