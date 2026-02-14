@@ -1,0 +1,52 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navigation Styles - Style this to make it look like a menu */
+nav {
+  background-color: #333;
+  padding: 1rem;
+  /* Add positioning if you want it to be sticky/fixed */
+}
+
+nav ul {
+  list-style: none;
+  /* Add flexbox or inline-block to make horizontal */
+}
+
+nav li {
+  /* Style individual list items */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  /* Add hover effects */
+}
+
+/* Section Styles */
+section {
+  padding: 4rem 2rem;
+  min-height: 400px;
+}
+
+section:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+/* Add your custom styles below */
