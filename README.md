@@ -43,13 +43,11 @@ Below are a series of code excercises HTML, CSS and Javascript. I would recommen
     Display a random quote from an array when a button is clicked.
 5. **[Counter App](./javascript-exercises/counter-app/README.md)**:
     Create increment, decrement, and reset buttons that update a displayed number.
-6. **[Password Validator](./javascript-exercises/password-validator/README.md)**:
-    Write a function that checks if a password meets certain criteria (length, special characters, etc.).
-7. **[Image Slider/Carousel](./javascript-exercises/image-slider/README.md)**:
+6. **[Image Slider/Carousel](./javascript-exercises/image-slider/README.md)**:
     Create a slideshow that cycles through images with next/previous buttons.
-8. **[News Feed](./javascript-exercises/news-feed/README.md)**:
+7. **[News Feed](./javascript-exercises/news-feed/README.md)**:
     Fetch and display current news articles using a local json file.
 
 ## Main Project
 
-Once you have worked through the above exercises then you can move onto the main project, the details for which are in [main folder](./main/README.md)
+Once you have worked through a few of the above exercises then you can move onto the main project, the details for which are in [main folder](./main/README.md)
