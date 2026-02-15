@@ -8,6 +8,51 @@ The goal of this training is to run through learning the basics of web developme
 
 Once this is complete then we will build out a backend solution using Django to store and serve these news stories.
 
+### News Index page
+
+The news index should have the following:
+* a banner with an image and title with intro text
+* left hand section showing a list of news categories
+* right section with a grid of news stories with links to news detail pages
+* each item in the list of news should contain the following:
+** an image
+** date of publication
+** title
+
+### News Detail page
+
+Each news detail page should contain the following:
+* an image
+* title
+* date of publication
+* author name
+* author image
+* news article content
+* related news section
+
+## Planning
+
+We need to break this project down into 3 main phases, these are as follows:
+* create design flats
+* build html and css from the flats
+* build out a backend solution
+
+## Creating design flats
+
+To create the design flats you could use paper and pen, you could use a dedicated software programme such as Photoshop, [Figma](https://www.figma.com) or something like [Moqups](https://moqups.com) for wireframing.
+
+Wireframing is a process of creating low-fidelity visual representations of a web page or application layout. Think of it as a blueprint or skeleton of your website that focuses on structure, content hierarchy, and functionality rather than visual design details like colors, fonts, or images.
+
+## Build HTML and CSS
+
+The next step is generally for us to build out the HTML and associated CSS before we start to look at the back end functionality. Sometimes that back and front end development will happen in tandem and it is even possible to decouple the back end development from the front end so that both can happen in isolation but for our example we are going to build out the front end components first.
+
+If you look in the front-end folder you will find 2 files:
+* index.html - which will show a list of news articles.
+* detail.html - which will show the details of a news article
+
+Once you have completed the designs for these 2 pages then we can look at starting to build out the back end functionality. For our back end we are going to be using [Django](https://www.djangoproject.com)
+
 ## Getting Started with Django
 
 ### 1. Create a Virtual Environment
@@ -72,35 +117,6 @@ python manage.py migrate
 # Create a superuser for the admin interface
 python manage.py createsuperuser
 ```
-
-### News Index page
-
-The news index should have the following:
-* a banner with an image and title with intro text
-* left hand section showing a list of news categories
-* right section with a grid of news stories with links to news detail pages
-* each item in the list of news should contain the following:
-** an image
-** date of publication
-** title
-
-### News Detail page
-
-Each news detail page should contain the following:
-* an image
-* title
-* date of publication
-* author name
-* author image
-* news article content
-* related news section
-
-## Planning
-
-We need to break this project down into 3 main phases, these are as follows:
-* create design flats
-* build html and css from the flats
-* build out a backend solution
 
 ## Understanding Django Models and Views
 

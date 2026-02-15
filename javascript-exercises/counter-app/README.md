@@ -25,28 +25,15 @@ Create increment, decrement, and reset buttons that update a displayed number.
 3. Decrement button (-1)
 4. Reset button (back to 0)
 
-## Suggested HTML Structure
-
-```html
-<div class="counter-container">
-    <h2 id="counter-display">0</h2>
-    <div class="button-group">
-        <button id="decrement-btn">-</button>
-        <button id="reset-btn">Reset</button>
-        <button id="increment-btn">+</button>
-    </div>
-</div>
-```
-
 ## Tasks
 
-1. Create a counter variable initialized to 0
-2. Create a function to update the display with the current count
-3. Add event listeners to all three buttons
-4. Increment button increases count by 1
-5. Decrement button decreases count by 1
-6. Reset button sets count back to 0
-7. Update the display after each action
+[x] 1. Create a counter variable initialized to 0
+[x] 2. Create a function to update the display with the current count
+[x] 3. Add event listeners to all three buttons
+[x] 4. Increment button increases count by 1
+[ ] 5. Decrement button decreases count by 1
+[ ] 6. Reset button sets count back to 0
+[ ] 7. Update the display after each action
 
 ## Tips
 
@@ -63,7 +50,6 @@ Create increment, decrement, and reset buttons that update a displayed number.
 - Add a limit (min/max values)
 - Add animation when the number changes
 - Add keyboard support (arrow keys to increment/decrement)
-- Add sound effects for each action
 - Store the count in localStorage to persist between page reloads
 - Add a history of all changes
 - Create multiple independent counters on the same page
@@ -71,18 +57,9 @@ Create increment, decrement, and reset buttons that update a displayed number.
 ## CSS Styling Ideas
 
 ```css
-.counter-display {
-    font-size: 72px;
-    font-weight: bold;
-}
 
 .positive { color: green; }
 .negative { color: red; }
 .zero { color: gray; }
 
-button {
-    font-size: 24px;
-    padding: 10px 20px;
-    margin: 5px;
-}
 ```

@@ -27,16 +27,6 @@ Display a random quote from an array when a button is clicked.
 3. Display area for the quote
 4. Display area for the author (optional)
 
-## Suggested HTML Structure
-
-```html
-<div class="quote-container">
-    <div id="quote-display"></div>
-    <div id="author-display"></div>
-    <button id="new-quote-btn">New Quote</button>
-</div>
-```
-
 ## Tasks
 
 1. Create an array of at least 10 quotes
