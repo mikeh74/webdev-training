@@ -6,3 +6,5 @@ db.sqlite3
 *.pyd
 .venv/
 venv/
+media/
+static/
