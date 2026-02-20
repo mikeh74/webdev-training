@@ -94,7 +94,7 @@ urlpatterns = [
 **`app_name = 'news'`**
 - Creates a namespace for these URLs
 - Prevents naming conflicts between apps
-- Used when reversing URLs: `{% url 'news:index' %}` or `reverse('news:index')`
+- Used when reversing URLs: `reverse('news:index')`
 
 **`path('', views.index, name='index')`**
 - Matches `/news/` (empty string after `news/`)
@@ -141,6 +141,7 @@ Every URL pattern should have a `name` parameter. This allows you to refer to UR
 
 ### Using Named URLs in Templates
 
+{% raw %}
 ```html
 <!-- Instead of hardcoding: -->
 <a href="/news/">News</a>
@@ -150,6 +151,7 @@ Every URL pattern should have a `name` parameter. This allows you to refer to UR
 <a href="{% url 'news:index' %}">News</a>
 <a href="{% url 'news:detail' pk=5 %}">Article 5</a>
 ```
+{% endraw %}
 
 ### Using Named URLs in Views
 
