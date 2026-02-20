@@ -48,6 +48,8 @@ Below are a series of code excercises HTML, CSS and Javascript. I would recommen
 7. **[News Feed](./javascript-exercises/news-feed/README.md)**:
     Fetch and display current news articles using a local json file.
 
-## Main Project
+## Django Project
 
-Once you have worked through a few of the above exercises then you can move onto the main project, the details for which are in [main folder](./main/README.md)
+Once you have worked through a few of the above exercises then you can move onto
+the example django project, the details for which are in the
+[django folder](./django/README.md)
