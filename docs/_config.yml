@@ -1,7 +1,7 @@
 title: Web Development Training
 description: A guide to web development covering HTML, CSS, JavaScript, and Django.
-baseurl: ""
-url: ""
+baseurl: "/webdev-training"
+url: "https://mikeh74.github.io/"
 
 theme: minima
 
@@ -16,7 +16,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "default"
+      layout: "page"
 
 nav:
   - title: Home
