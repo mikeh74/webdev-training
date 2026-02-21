@@ -3,7 +3,11 @@ description: A guide to web development covering HTML, CSS, JavaScript, and Djan
 baseurl: "/webdev-training"
 url: "https://mikeh74.github.io/"
 
-theme: minima
+# theme: minima
+
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 markdown: kramdown
 
