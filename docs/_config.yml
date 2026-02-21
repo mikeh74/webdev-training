@@ -1,0 +1,45 @@
+title: Web Development Training
+description: A guide to web development covering HTML, CSS, JavaScript, and Django.
+baseurl: ""
+url: ""
+
+theme: minima
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+nav:
+  - title: Home
+    url: /
+  - title: Intro to Web
+    url: /intro-to-web
+  - title: Job Roles
+    url: /job-roles
+  - title: Django
+    url: /django/intro
+    children:
+      - title: Introduction
+        url: /django/intro
+      - title: File Structure
+        url: /django/file_structure
+      - title: Models
+        url: /django/models
+      - title: Views
+        url: /django/views
+      - title: Routing
+        url: /django/routing
+      - title: Resources
+        url: /django/resources
+
+exclude:
+  - README.md

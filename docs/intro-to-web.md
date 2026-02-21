@@ -67,15 +67,19 @@ To begin developing for the web:
 - [MDN HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+- [web.dev](https://web.dev)
 
 ## Next Steps
 
 Once you're comfortable with the basics, you can explore:
-- CSS frameworks (Bootstrap, Tailwind, Pico CSS)
-- Modern JavaScript frameworks (React, Vue, Angular)
-- Backend development with Django and Python
-- Microservices using Node or Fast API
-- Version control with Git
-- Web accessibility standards
-- Performance optimization
-- Progressive Web Apps (PWAs)
+* CSS frameworks such as:
+  * [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+  * [Tailwind](https://tailwindcss.com)
+  * [Pico CSS](https://picocss.com)
+* Modern JavaScript frameworks (React, Vue, Angular)
+* Backend development with Django and Python
+* Microservices using Node or Fast API
+* Version control with [Git](https://git-scm.com)
+* Web accessibility standards - [MDN docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG)
+* Performance optimization
+* Progressive Web Apps (PWAs)
