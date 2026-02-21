@@ -6,7 +6,7 @@ permalink: /
 # Web Development Training
 
 Welcome to the Web Development Training documentation! This repository is 
-designed as a comprehensive learning resource for aspiring web developers,
+designed as a learning resource for aspiring Django web developers,
 covering everything from fundamental web technologies to building full-stack
 applications with Django.
 
@@ -36,8 +36,21 @@ CSS, and JavaScript fundamentals
 
 ## Learning Path
 
-Clone or download the repo from github and then start working through the
+Download the repo from github and then start working through the
 HTML and Javascript exercises.
+
+{% if site.show_downloads %}
+<div class="downloads">
+  <a href="{{ site.github.zip_url }}" class="btn">
+    <small>Download</small>
+    .zip file
+  </a>
+  <a href="{{ site.github.tar_url }}" class="btn">
+    <small>Download</small>
+    .tar.gz file
+  </a>
+</div>
+{% endif %}
 
 Complete 3-4 exercises before moving to JavaScript and then complete 3-4 of
 those before moving on to Django.

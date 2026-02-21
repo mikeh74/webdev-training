@@ -30,6 +30,8 @@ HTML, CSS, and JavaScript
 - **[Django Guides](./docs/django/)** — concept guides covering models, views,
 routing, and more
 
+[View online](https://mikeh74.github.io/webdev-training/)
+
 ### 2. Complete the Coding Exercises
 
 Work through the hands-on exercises before moving on to the main project. Aim
