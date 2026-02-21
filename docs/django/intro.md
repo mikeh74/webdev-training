@@ -5,9 +5,13 @@ permalink: /django/intro
 
 # Getting Started with Django
 
+If you have no previous experience with python then start by looking at
+[getting started with python](https://www.python.org/about/gettingstarted/)
+
 ## 1. Create a Virtual Environment
 
-Creating a virtual environment keeps your project dependencies isolated from your system Python installation.
+Creating a virtual environment keeps your project dependencies isolated from
+your system Python installation.
 
 ```bash
 # Navigate to the django directory
@@ -51,7 +55,8 @@ cd mysite
 python manage.py runserver
 ```
 
-The development server will start on `http://127.0.0.1:8000/` by default. You should see output indicating the server is running.
+The development server will start on `http://127.0.0.1:8000/` by default. You
+should see output indicating the server is running.
 
 To stop the server, press `Ctrl+C` in the terminal.
 

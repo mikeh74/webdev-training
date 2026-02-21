@@ -66,9 +66,9 @@ Build full-stack web applications with Python:
 
 - **[Django Introduction](django/intro.md)** - Getting started with Django
 - **[Project Structure](django/file_structure.md)** - Understanding Django's architecture
+- **[Routing](django/routing.md)** - URL configuration
 - **[Models](django/models.md)** - Working with databases
 - **[Views](django/views.md)** - Handling requests and responses
-- **[Routing](django/routing.md)** - URL configuration
 - **[Resources](django/resources.md)** - Additional learning materials
 
 ## Project Structure

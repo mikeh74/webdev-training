@@ -5,7 +5,9 @@ permalink: /django/models
 
 # Understanding Django Models and Views
 
-Models are Python classes that define the structure of your database tables. Each model maps to a single database table and defines the fields and behaviors of the data you're storing.
+Models are Python classes that define the structure of your database tables.
+Each model maps to a single database table and defines the fields and behaviors
+of the data you're storing.
 
 **Key Concepts to Learn:**
 

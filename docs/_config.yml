@@ -30,12 +30,12 @@ nav:
         url: /django/intro
       - title: File Structure
         url: /django/file_structure
+      - title: Routing
+        url: /django/routing
       - title: Models
         url: /django/models
       - title: Views
         url: /django/views
-      - title: Routing
-        url: /django/routing
       - title: Resources
         url: /django/resources
 
