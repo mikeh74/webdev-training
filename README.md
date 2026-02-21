@@ -24,6 +24,9 @@ If you are new to web development, begin with the background reading in the
 web development and what they involve
 - **[Introduction to Web Development](./docs/intro-to-web.md)** — an overview of
 HTML, CSS, and JavaScript
+- **[HTML 101](./docs/html-101.md)** — introduction to HTML: structure, elements, and semantics
+- **[CSS 101](./docs/css-101.md)** — introduction to CSS: selectors, the box model, layout, and responsive design
+- **[JavaScript 101](./docs/javascript-101.md)** — introduction to JavaScript: variables, functions, DOM manipulation, and more
 - **[Django Guides](./docs/django/)** — concept guides covering models, views,
 routing, and more
 

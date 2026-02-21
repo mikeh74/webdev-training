@@ -23,6 +23,12 @@ nav:
     url: /intro-to-web
   - title: Job Roles
     url: /job-roles
+  - title: HTML 101
+    url: /html-101
+  - title: CSS 101
+    url: /css-101
+  - title: JavaScript 101
+    url: /javascript-101
   - title: Django
     url: /django/intro
     children:

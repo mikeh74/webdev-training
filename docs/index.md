@@ -30,6 +30,9 @@ foundational topics:
 of web development careers
 2. **[Introduction to Web Development](intro-to-web.md)** - Learn about HTML,
 CSS, and JavaScript fundamentals
+3. **[HTML 101](html-101.md)** - Introduction to HTML: structure, elements, and semantics
+4. **[CSS 101](css-101.md)** - Introduction to CSS: selectors, the box model, layout, and responsive design
+5. **[JavaScript 101](javascript-101.md)** - Introduction to JavaScript: variables, functions, DOM manipulation, and more
 
 ## Learning Path
 
@@ -58,8 +61,9 @@ explore, learn, and build upon these exercises.
 ## Next Steps
 
 1. Review the [Introduction to Web Development](intro-to-web.md)
-2. Complete some HTML/CSS exercises
-3. Move on to JavaScript exercises
-4. Start building with [Django](django/intro.md)
+2. Work through [HTML 101](html-101.md), [CSS 101](css-101.md), and [JavaScript 101](javascript-101.md)
+3. Complete some HTML/CSS exercises
+4. Move on to JavaScript exercises
+5. Start building with [Django](django/intro.md)
 
 Happy coding! 🚀
