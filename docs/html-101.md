@@ -3,7 +3,7 @@ title: HTML 101
 permalink: /html-101
 ---
 
-# HTML 101 — Introduction to HTML
+# Introduction to HTML
 
 HTML (HyperText Markup Language) is the foundation of every web page. It provides the **structure and content** of a page using a system of *elements* represented by tags.
 

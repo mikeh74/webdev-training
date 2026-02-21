@@ -3,7 +3,7 @@ title: JavaScript 101
 permalink: /javascript-101
 ---
 
-# JavaScript 101 — Introduction to JavaScript
+# Introduction to JavaScript
 
 JavaScript is the programming language of the web. It runs in the browser and lets you make pages **interactive and dynamic** — responding to user actions, updating content without reloading, and communicating with servers.
 

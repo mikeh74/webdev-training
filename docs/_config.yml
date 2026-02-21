@@ -1,7 +1,9 @@
-title: Web Development Training
+title: Django Web Developer Training
 description: A guide to web development covering HTML, CSS, JavaScript, and Django.
 baseurl: "/webdev-training"
-url: "https://mikeh74.github.io/"
+url: "https://mikeh74.github.io/webdev-training/"
+
+show_downloads: true
 
 markdown: kramdown
 
@@ -15,6 +17,10 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+
+github:
+  zip_url: "https://github.com/mikeh74/webdev-training/archive/refs/heads/main.zip"
+  tar_url: "https://github.com/mikeh74/webdev-training/archive/refs/heads/main.tar.gz"
 
 nav:
   - title: Home
