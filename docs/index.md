@@ -60,6 +60,6 @@ explore, learn, and build upon these exercises.
 1. Review the [Introduction to Web Development](intro-to-web.md)
 2. Complete some HTML/CSS exercises
 3. Move on to JavaScript exercises
-4. Start building with [Django](django/index.md)
+4. Start building with [Django](django/intro.md)
 
 Happy coding! 🚀
