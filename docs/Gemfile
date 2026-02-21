@@ -3,5 +3,5 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.4"
 
 group :jekyll_plugins do
-  # Add plugin gems here as needed
+  gem "jekyll-relative-links"
 end

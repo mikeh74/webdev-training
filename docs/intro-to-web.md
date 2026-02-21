@@ -87,7 +87,10 @@ Once you're comfortable with the basics, you can explore:
   * [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
   * [Tailwind](https://tailwindcss.com)
   * [Pico CSS](https://picocss.com)
-* Modern JavaScript frameworks (React, Vue, Angular)
+* Modern JavaScript frameworks such as:
+  * [React](https://react.dev)/[Next JS](https://nextjs.org)
+  * [Vue](https://vuejs.org/guide/introduction)
+  * [Angular](https://angular.dev)
 * Backend development with Django and Python
 * Microservices using Node or Fast API
 * Version control with [Git](https://git-scm.com)

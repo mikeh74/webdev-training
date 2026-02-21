@@ -5,6 +5,9 @@ url: "https://mikeh74.github.io/webdev-training/"
 
 show_downloads: true
 
+plugins:
+  - jekyll-relative-links
+
 markdown: kramdown
 
 kramdown:
@@ -25,10 +28,10 @@ github:
 nav:
   - title: Home
     url: /
-  - title: Intro to Web
-    url: /intro-to-web
   - title: Job Roles
     url: /job-roles
+  - title: Intro to Web
+    url: /intro-to-web
   - title: HTML 101
     url: /html-101
   - title: CSS 101

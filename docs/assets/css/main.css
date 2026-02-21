@@ -60,6 +60,7 @@ body {
   z-index: 100;
   height: var(--header-height);
   background: var(--color-header-bg);
+  background: linear-gradient(to left, #012f58, #353e9d);
   box-shadow: var(--shadow);
   display: flex;
   align-items: center;

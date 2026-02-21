@@ -26,9 +26,9 @@ web applications
 If you're new to web development, we recommend starting with these
 foundational topics:
 
-1. **[Job Roles in Web Development](job-roles.md)** - Understand the landscape
+1. **[Job Roles in Web Development](./job-roles.md)** - Understand the landscape
 of web development careers
-2. **[Introduction to Web Development](intro-to-web.md)** - Learn about HTML,
+2. **[Introduction to Web Development](./intro-to-web.md)** - Learn about HTML,
 CSS, and JavaScript fundamentals
 3. **[HTML 101](html-101.md)** - Introduction to HTML: structure, elements, and semantics
 4. **[CSS 101](css-101.md)** - Introduction to CSS: selectors, the box model, layout, and responsive design
