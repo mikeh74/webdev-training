@@ -19,7 +19,9 @@ HTML is the backbone of every web page, providing the structure and content. It 
 - Links and navigation
 - Multimedia embedding (images, video, audio)
 
-**Learn More:** [MDN HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
+**Learn More:** 
+- [HTML 101](./html-101.md)
+- [MDN HTML Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ### 2. CSS (Cascading Style Sheets)
 
@@ -32,7 +34,9 @@ CSS controls the visual presentation of HTML elements. It determines colors, lay
 - Responsive design with media queries
 - Animations and transitions
 
-**Learn More:** [MDN CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+**Learn More:**
+- [CSS 101](./css-101.md)
+- [MDN CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### 3. JavaScript
 
@@ -46,7 +50,9 @@ JavaScript brings interactivity and dynamic behavior to web pages. It's a full-f
 - Asynchronous programming (Promises, async/await)
 - APIs and data fetching
 
-**Learn More:** [MDN JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+**Learn More:**
+- [JavaScript 101](./javascript-101.md)
+- [MDN JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## How They Work Together
 
