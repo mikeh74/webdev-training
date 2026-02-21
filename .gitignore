@@ -8,3 +8,7 @@ db.sqlite3
 venv/
 media/
 static/
+_site/
+.DS_Store
+.idea/
+.vscode/

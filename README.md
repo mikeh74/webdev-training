@@ -1,55 +1,45 @@
-# Web Development
+# Web Developer Training
 
-## Introduction
+This repository contains learning materials and practical exercises for web
+development. It is aimed at learners who are new to web development and want
+to build skills in HTML, CSS, JavaScript, and Python with Django.
 
-There are a number of roles in web development and it is useful to be aware of the kinds of roles that are available. Depending on the nature and size of each organisation you may find that some of these roles overlap or a job role may incorporate several of these roles:
+## Project Structure
 
-**[Overview of Job Roles](./docs/job-roles.md)**
+| Folder                    | Purpose                   |
+|---                        |---                        |
+| [`docs/`](./docs/)        | Background reading and concept guides |
+| [`html-exercises/`](./html-exercises/) | Hands-on HTML and CSS coding exercises |
+| [`javascript-exercises/`](./javascript-exercises/) | Hands-on JavaScript coding exercises |
+| [`django/`](./django/)    | A guided Django project   |
 
-The backbone of the web is built on HTML, CSS and Javascript. Knowledge of these three technologies are essential for many roles in web development:
+## Where to Start
 
-**[Introduction to Web Development](./docs/intro-to-web.md)**
+### 1. Read the Docs
 
-On top of these technologies you are likely to come across other programming languages which are used in the back end, such as Python, PHP, Java or Ruby. We will be using Python with Django as the back end for our main project.
+If you are new to web development, begin with the background reading in the
+[`docs/`](./docs/) folder:
 
-## Coding Exercises
+- **[Overview of Job Roles](./docs/job-roles.md)** — the kinds of roles in
+web development and what they involve
+- **[Introduction to Web Development](./docs/intro-to-web.md)** — an overview of
+HTML, CSS, and JavaScript
+- **[Django Guides](./docs/django/)** — concept guides covering models, views,
+routing, and more
 
-Below are a series of code excercises HTML, CSS and Javascript. I would recommend completing 3 or 4 from each before starting on the main project.
+### 2. Complete the Coding Exercises
 
-### HTML/ CSS Exercises
+Work through the hands-on exercises before moving on to the main project. Aim
+to complete 3 or 4 from each section:
 
-1. **[Create a Person Profile Page](./html-exercises/person-profile/README.md)**:
-    Build a basic HTML page with headings, paragraphs, an image, and a list of skills.
-2. **[Build a Simple Navigation Menu](./html-exercises/navigation/README.md)**:
-    Create an unordered list with links to different sections of a page using anchor tags.
-3. **[Design a Contact Form](./html-exercises/contact-form/README.md)**:
-    Construct a form with input fields for name, email, message, and a submit button.
-4. **[Embed Media](./html-exercises/media-embeds/README.md)**:
-    Create a page that embeds a video, audio file, and iframe.
-5. **[Card Layout - Grid vs Flexbox](./html-exercises/card-layout/README.md)**:
-    Create a responsive card gallery using either CSS Grid or Flexbox to see how both approaches solve the same layout problem.
-6. **[Build a Recipe Page](./html-exercises/recipe-page/README.md)**:
-    Structure a recipe with headings, ingredients list, ordered steps, and an image.
+- **[HTML & CSS Exercises](./html-exercises/README.md)** — practise building
+and styling web pages
+- **[JavaScript Exercises](./javascript-exercises/README.md)** — practise
+adding interactivity with JavaScript
 
-### Javascript Exercises
+### 3. Build the Django Project
 
-1. **[Variable Practice](./javascript-exercises/variable-practice/README.md)**:
-    Create variables to store your name, age, and favorite color.
-2. **[Temperature Converter](./javascript-exercises/temperature-converter/README.md)**:
-    Build a function that converts Celsius to Fahrenheit and vice versa.
-3. **[To-Do List](./javascript-exercises/todo-list/README.md)**:
-    Build a simple to-do list where users can add, remove, and mark tasks as complete using DOM manipulation.
-4. **[Random Quote Generator](./javascript-exercises/quote-generator/README.md)**:
-    Display a random quote from an array when a button is clicked.
-5. **[Counter App](./javascript-exercises/counter-app/README.md)**:
-    Create increment, decrement, and reset buttons that update a displayed number.
-6. **[Image Slider/Carousel](./javascript-exercises/image-slider/README.md)**:
-    Create a slideshow that cycles through images with next/previous buttons.
-7. **[News Feed](./javascript-exercises/news-feed/README.md)**:
-    Fetch and display current news articles using a local json file.
+Once you are comfortable with the exercises, move on to the guided Django project:
 
-## Django Project
-
-Once you have worked through a few of the above exercises then you can move onto
-the example django project, the details for which are in the
-[django folder](./django/README.md)
+- **[Django Project](./django/README.md)** — a full back-end web application
+built with Python and Django
