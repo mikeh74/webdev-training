@@ -18,7 +18,7 @@ to build skills in HTML, CSS, JavaScript, and Python with Django.
 ### 1. Read the Docs
 
 If you are new to web development, begin with the background reading in the
-[`docs/`](./docs/) folder:
+[`docs/`](./docs/) folder, or [view them online](https://mikeh74.github.io/webdev-training/):
 
 - **[Overview of Job Roles](./docs/job-roles.md)** — the kinds of roles in
 web development and what they involve
@@ -30,17 +30,25 @@ HTML, CSS, and JavaScript
 - **[Django Guides](./docs/django/)** — concept guides covering models, views,
 routing, and more
 
-[View online](https://mikeh74.github.io/webdev-training/)
+You can also build and view the docs locally if you have ruby installed on
+your computer, using the following commands:
+
+```
+cd docs
+bundle install
+bundle exec jekyll serve
+```
+
+You should then by able to view the docs locally on your machine:
+<http://localhost:4000/webdev-training/>
 
 ### 2. Complete the Coding Exercises
 
 Work through the hands-on exercises before moving on to the main project. Aim
 to complete 3 or 4 from each section:
 
-- **[HTML & CSS Exercises](./html-exercises/README.md)** — practise building
-and styling web pages
-- **[JavaScript Exercises](./javascript-exercises/README.md)** — practise
-adding interactivity with JavaScript
+- **HTML & CSS Exercises** — practise building and styling web pages
+- **JavaScript Exercises** — practise adding interactivity with JavaScript
 
 ### 3. Build the Django Project
 
