@@ -1,0 +1,25 @@
+<nav class="sidebar-nav" aria-label="Site navigation">
+  {% for item in site.nav %}
+    {% if item.children %}
+      <div class="nav-group">
+        <button class="nav-group-toggle" aria-expanded="false">
+          {{ item.title }}
+          <svg class="chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+        <ul class="nav-children">
+          {% for child in item.children %}
+            <li>
+              <a class="nav-link nav-child-link{% if page.url == child.url or page.url == child.url | append: '/' %} active{% endif %}"
+                 href="{{ child.url | relative_url }}">{{ child.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% else %}
+      <a class="nav-link{% if page.url == item.url or page.url == item.url | append: '/' %} active{% endif %}"
+         href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% endif %}
+  {% endfor %}
+</nav>

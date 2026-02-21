@@ -1,3 +1,8 @@
+---
+title: Routing in Django
+permalink: /django/routing
+---
+
 # Routing in Django
 
 ## What is URL Routing?

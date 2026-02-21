@@ -1,3 +1,8 @@
+---
+title: Getting Started with Django
+permalink: /django/intro
+---
+
 # Getting Started with Django
 
 ## 1. Create a Virtual Environment

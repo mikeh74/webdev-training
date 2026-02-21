@@ -1,3 +1,8 @@
+---
+title: Django Learning Resources
+permalink: /django/resources
+---
+
 # Django Learning Resources
 
 A curated collection of resources for learning Django web development, organized by topic.

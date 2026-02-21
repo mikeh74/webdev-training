@@ -1,3 +1,8 @@
+---
+title: Roles in Web Development
+permalink: /job-roles
+---
+
 # Roles in Web Development
 
 Web development projects typically involve several specialized roles, each focusing on different aspects of building and maintaining web applications:

@@ -1,3 +1,8 @@
+---
+title: Django Project Structure
+permalink: /django/file_structure
+---
+
 # Django Project Structure
 
 When you create a new Django project using `django-admin startproject mysite`, 

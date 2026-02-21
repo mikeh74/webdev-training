@@ -1,3 +1,8 @@
+---
+title: Introduction to Web Development
+permalink: /intro-to-web
+---
+
 # Introduction to Web Development
 
 Web development is the practice of building and maintaining websites and web applications. At its core, modern web development relies on three fundamental technologies that work together to create interactive and visually appealing experiences on the internet.

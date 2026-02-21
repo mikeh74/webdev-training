@@ -1,3 +1,8 @@
+---
+title: Django Views
+permalink: /django/views
+---
+
 # Django Views
 
 Views are Python functions or classes that receive web requests and return web responses. They contain the logic for processing data and rendering templates.

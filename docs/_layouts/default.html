@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
+</head>
+<body>
+
+  {% include header.html %}
+
+  <div class="layout-wrapper">
+    <button class="sidebar-toggle" id="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <aside class="sidebar" id="sidebar">
+      {% include nav.html %}
+    </aside>
+    <main class="main-content" id="main-content">
+      {{ content }}
+    </main>
+  </div>
+
+  {% include footer.html %}
+
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.createElement('div');
+    overlay.className = 'sidebar-overlay';
+    document.body.appendChild(overlay);
+
+    function openSidebar() {
+      sidebar.classList.add('open');
+      overlay.classList.add('active');
+      document.body.classList.add('sidebar-open');
+    }
+    function closeSidebar() {
+      sidebar.classList.remove('open');
+      overlay.classList.remove('active');
+      document.body.classList.remove('sidebar-open');
+    }
+
+    toggle.addEventListener('click', () => {
+      sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
+    });
+    overlay.addEventListener('click', closeSidebar);
+
+    // Expand nav group containing active link
+    document.querySelectorAll('.nav-group').forEach(group => {
+      if (group.querySelector('.nav-link.active')) {
+        group.classList.add('expanded');
+      }
+    });
+    document.querySelectorAll('.nav-group-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.closest('.nav-group').classList.toggle('expanded');
+      });
+    });
+  </script>
+
+</body>
+</html>

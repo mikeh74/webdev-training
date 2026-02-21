@@ -1,3 +1,8 @@
+---
+title: Web Development Training
+permalink: /
+---
+
 # Web Development Training
 
 Welcome to the Web Development Training documentation! This repository is 
