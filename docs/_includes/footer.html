@@ -2,4 +2,20 @@
   <div class="footer-inner">
     <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Built with <a href="https://jekyllrb.com">Jekyll</a>.</p>
   </div>
+
+  {% if site.show_downloads %}
+    <a href="{{ site.github.zip_url }}" class="button">
+      <small>Download</small>
+      .zip file
+    </a>
+    <a href="{{ site.github.tar_url }}" class="button">
+      <small>Download</small>
+      .tar.gz file
+    </a>
+  {% endif %}
+  
+  {% if site.github.is_project_page %}
+    <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a></p>
+  {% endif %}
+
 </footer>

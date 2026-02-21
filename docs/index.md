@@ -33,43 +33,11 @@ CSS, and JavaScript fundamentals
 
 ## Learning Path
 
-### HTML & CSS Exercises
+Clone or download the repo from github and then start working through the
+HTML and Javascript exercises.
 
-Practice building static web pages and styling them:
-
-- [Person Profile Page](../html-exercises/person-profile/README.md)
-- [Navigation Menu](../html-exercises/navigation/README.md)
-- [Contact Form](../html-exercises/contact-form/README.md)
-- [Media Embeds](../html-exercises/media-embeds/README.md)
-- [Card Layout](../html-exercises/card-layout/README.md)
-- [Recipe Page](../html-exercises/recipe-page/README.md)
-
-**Recommendation**: Complete 3-4 exercises before moving to JavaScript.
-
-### JavaScript Exercises
-
-Learn dynamic programming and DOM manipulation:
-
-- [Variable Practice](../javascript-exercises/variable-practice/README.md)
-- [Temperature Converter](../javascript-exercises/temperature-converter/README.md)
-- [To-Do List](../javascript-exercises/todo-list/README.md)
-- [Quote Generator](../javascript-exercises/quote-generator/README.md)
-- [Counter App](../javascript-exercises/counter-app/README.md)
-- [Image Slider](../javascript-exercises/image-slider/README.md)
-- [News Feed](../javascript-exercises/news-feed/README.md)
-
-**Recommendation**: Complete 3-4 exercises before starting Django.
-
-### Django Framework
-
-Build full-stack web applications with Python:
-
-- **[Django Introduction](django/intro.md)** - Getting started with Django
-- **[Project Structure](django/file_structure.md)** - Understanding Django's architecture
-- **[Routing](django/routing.md)** - URL configuration
-- **[Models](django/models.md)** - Working with databases
-- **[Views](django/views.md)** - Handling requests and responses
-- **[Resources](django/resources.md)** - Additional learning materials
+Complete 3-4 exercises before moving to JavaScript and then complete 3-4 of
+those before moving on to Django.
 
 ## Project Structure
 
