@@ -1,6 +1,7 @@
 ---
 title: Getting Started with Django
 permalink: /django/intro
+layout: django
 ---
 
 # Getting Started with Django

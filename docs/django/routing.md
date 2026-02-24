@@ -1,6 +1,7 @@
 ---
 title: Routing in Django
 permalink: /django/routing
+layout: django
 ---
 
 # Routing in Django

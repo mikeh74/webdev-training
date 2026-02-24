@@ -54,5 +54,19 @@ nav:
       - title: Resources
         url: /django/resources
 
+django_nav:
+  - title: Introduction
+    url: /django/intro
+  - title: File Structure
+    url: /django/file_structure
+  - title: Routing
+    url: /django/routing
+  - title: Models
+    url: /django/models
+  - title: Views
+    url: /django/views
+  - title: Resources
+    url: /django/resources
+
 exclude:
   - README.md

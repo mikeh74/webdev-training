@@ -1,6 +1,7 @@
 ---
 title: Django Learning Resources
 permalink: /django/resources
+layout: django
 ---
 
 # Django Learning Resources

@@ -1,6 +1,7 @@
 ---
 title: Django Views
 permalink: /django/views
+layout: django
 ---
 
 # Django Views

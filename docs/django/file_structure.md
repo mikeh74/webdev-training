@@ -1,6 +1,7 @@
 ---
 title: Django Project Structure
 permalink: /django/file_structure
+layout: django
 ---
 
 # Django Project Structure

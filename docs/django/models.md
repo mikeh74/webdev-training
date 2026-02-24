@@ -1,6 +1,7 @@
 ---
 title: Understanding Django Models
 permalink: /django/models
+layout: django
 ---
 
 # Understanding Django Models and Views
