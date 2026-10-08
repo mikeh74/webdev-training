@@ -91,14 +91,14 @@ Always include an `alt` attribute — it describes the image for screen readers 
 ### Lists
 
 ```html
-<!-- Unordered list -->
+{% raw %}<!-- Unordered list -->{% endraw %}
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
 
-<!-- Ordered list -->
+{% raw %}<!-- Ordered list -->{% endraw %}
 <ol>
   <li>Plan</li>
   <li>Build</li>

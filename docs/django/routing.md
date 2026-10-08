@@ -149,11 +149,11 @@ Every URL pattern should have a `name` parameter. This allows you to refer to UR
 
 {% raw %}
 ```html
-<!-- Instead of hardcoding: -->
+{% raw %}<!-- Instead of hardcoding: -->{% endraw %}
 <a href="/news/">News</a>
 <a href="/news/5/">Article 5</a>
 
-<!-- Use named URLs: -->
+{% raw %}<!-- Use named URLs: -->{% endraw %}
 <a href="{% url 'news:index' %}">News</a>
 <a href="{% url 'news:detail' pk=5 %}">Article 5</a>
 ```

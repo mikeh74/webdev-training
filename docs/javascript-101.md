@@ -13,7 +13,7 @@ The most common approach is to load an external script file. Place the `<script>
 
 ```html
 <body>
-  <!-- page content -->
+  {% raw %}<!-- page content -->{% endraw %}
   <script src="app.js"></script>
 </body>
 ```
@@ -64,10 +64,12 @@ const user = { name: 'Alice', age: 30 };
 8 / 2   // 4
 10 % 3  // 1  (remainder)
 
-// Comparison (always use === not ==)
+{% raw %}
+// Comparison (always use '===' not '==')
 5 === 5    // true
 5 !== 3    // true
 10 > 7     // true
+{% endraw %}
 
 // Logical
 true && false  // false (AND)
