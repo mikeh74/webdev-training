@@ -8,10 +8,11 @@ to build skills in HTML, CSS, JavaScript, and Python with Django.
 
 | Folder                    | Purpose                   |
 |---                        |---                        |
-| [`docs/`](./docs/)        | Background reading and concept guides |
+| [`docs/`](./docs/)        | Background reading and concept guides (Jekyll website) |
 | [`html-exercises/`](./html-exercises/) | Hands-on HTML and CSS coding exercises |
 | [`javascript-exercises/`](./javascript-exercises/) | Hands-on JavaScript coding exercises |
-| [`django/`](./django/)    | A guided Django project   |
+| [`python-exercises/`](./python-exercises/) | Hands-on Python coding exercises |
+| [`django/`](./django/)    | A guided Django project |
 
 ## Where to Start
 
